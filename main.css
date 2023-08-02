@@ -145,6 +145,7 @@ a {
     justify-content: space-evenly;
     height: 70px;
     color:  rgb(241, 117, 34);
+    border: solid rgb(246, 192, 246) 1px;
 }
 
 .productos-items {
