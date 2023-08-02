@@ -165,13 +165,12 @@ a {
     color:  rgb(241, 117, 34);
 }
 .col {
-    color: blue;
+   
     position: relative;
     padding: 60px;
     padding-left: 30px;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color:white;
     border: 1px solid red;
     list-style-type: none;
     font-family: 'Comic Neue', cursive;
@@ -186,7 +185,7 @@ a {
     height: 70px;
     color:  rgb(241, 117, 34);
 }
-.row::before {
+.col::before {
     content: ''; /*SIEMPRE SE PONE,GRALM.VACIO*/
     background-color: yellow;
     position: absolute;/*GRALM.SE PONE ABSOLUT*/
@@ -196,9 +195,10 @@ a {
     z-index: -1;
     transition: 1s;
 }
-.row:hover::before {
-    width: 50px;/*con esto o achico el amarillo*/
+.col:hover::before {
+    width: 20%;/*con esto o achico el amarillo*/
 } 
+
 
 
 
